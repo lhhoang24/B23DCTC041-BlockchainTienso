@@ -1,0 +1,22 @@
+{
+  "name": "smartcontract",
+  "version": "1.0.0",
+  "description": "Bai thuc hanh Blockchain - DominionDAO (Hardhat)",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:first": "hardhat run scripts/deploy_first.js --network sepolia",
+    "deploy:dao": "hardhat run scripts/deploy_dao.js --network sepolia"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.8.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "dotenv": "^16.4.5"
+  }
+}
